@@ -1,0 +1,20 @@
+[
+  {
+    "judul": "Sholat",
+    "prioritas": "High",
+    "status": "In Progress",
+    "due_date": "2026-04-01"
+  },
+  {
+    "judul": "Membuat tugas pemvis",
+    "prioritas": "Medium",
+    "status": "Todo",
+    "due_date": "2026-04-05"
+  },
+  {
+    "judul": "Push hasilnya ke GitHub",
+    "prioritas": "Low",
+    "status": "Done",
+    "due_date": "2026-03-30"
+  }
+]
