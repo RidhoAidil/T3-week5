@@ -1,3 +1,7 @@
+# Nama  : Muhammad Ridho Aidil Furqon
+# NIM   : F1D02310127
+# Kelas : C
+
 import sys
 import json
 import os
@@ -105,11 +109,9 @@ class BadgeDelegate(QStyledItemDelegate):
         painter.save()
         painter.setRenderHint(QPainter.Antialiasing)
 
-        # Fill row background
         if row_bg:
             painter.fillRect(option.rect, QColor(row_bg))
 
-        # Badge dimensions
         font = QFont()
         font.setPointSize(9)
         font.setBold(True)
@@ -343,7 +345,6 @@ class TaskManager(QMainWindow):
             row_bg = PRIORITY_ROW_BG.get(pri, "#FFFFFF")
             bg     = QColor(row_bg)
 
-            # capture bg/row_bg by value to avoid closure bug
             def make_cell(text, _bg=QColor(row_bg), _rbg=row_bg,
                           align=Qt.AlignVCenter | Qt.AlignLeft):
                 it = QTableWidgetItem(text)
